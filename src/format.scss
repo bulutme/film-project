@@ -1,0 +1,206 @@
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: flex;
+    width: 100% !important;
+    height: 60px !important;
+    .content-nav {
+      display: flex;
+      width: 100% !important;
+      gap: 0;
+      .content-nav-left {
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin: 0 !important;
+        padding: 0 !important;
+        button {
+          display: none;
+        }
+        img {
+          margin: 0;
+          width: 150px;
+          height: auto;
+        }
+      }
+      .content-nav-right {
+        display: flex;
+        align-items: center;
+        width: 35% !important;
+        .dropdown {
+          display: none;
+          align-items: center;
+          width: 100%;
+          .dropbtn {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            input {
+              display: flex;
+              align-items: center;
+              width: 100%;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .fromlibrary {
+    display: flex;
+    width: 100%;
+
+    h4 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .fromlibrary-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      width: 40%;
+      height: 40%;
+      .card {
+        width: 100%;
+        height: 300px;
+        img {
+          width: 100%;
+          height: 200px !important;
+        }
+        .card-body {
+          padding: 4px;
+          display: flex;
+          width: 100% !important;
+          height: auto;
+          flex-wrap: wrap;
+          h4 {
+            width: 100% !important;
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+
+  hr {
+    display: none;
+  }
+  .dropdownx {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block !important;
+    width: 20px;
+    svg {
+      color: #f9f9f9;
+    }
+  }
+
+  .dropdown-contentx {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #032541c5;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    .p {
+      color: #f9f9f9 !important;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .dropdownx:hover .dropdown-contentx {
+    display: block;
+  }
+  a {
+    width: 40%;
+    height: 40%;
+    .people-card {
+      width: 100%;
+      height: 300px;
+      img {
+        width: 100%;
+        height: 200px !important;
+      }
+      .people-card-body {
+        padding: 4px;
+        display: flex;
+        width: 100% !important;
+        height: auto;
+        flex-wrap: wrap;
+        h4 {
+          width: 100% !important;
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+  .filmsdetay {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .backdrop-path {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto !important;
+      filter: blur(9px);
+      opacity: 0.5;
+    }
+    .filmsdetay-left {
+      display: flex;
+      margin-top: 35px;
+      justify-content: center;
+      width: 100%;
+      .poster-path {
+        margin: 0;
+      }
+    }
+    .filmsdetay-right {
+      display: flex;
+      width: 100% !important;
+      margin: 0;
+      flex-wrap: wrap;
+      padding: 0;
+
+      div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        p {
+          display: flex;
+          width: 100%;
+        }
+      }
+      h4 {
+        margin: 8px !important;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      p {
+        margin: 8px !important;
+        padding: 0;
+        font-size: 18px;
+      }
+      strong {
+        margin: 0 !important;
+        padding: 0;
+        font-size: 18px;
+      }
+    }
+  }
+  .peopledetay {
+    display: flex;
+    flex-direction: column;
+    .peopledetay-poster-path {
+      width: 100%;
+    }
+  }
+}
